@@ -174,5 +174,7 @@ public class DecrafterListener extends BlockListener {
                 new ItemStack(Material.IRON_INGOT, 9))); // Iron Block
         decraftRules.put(57, new DecraftRule(GoldToolType.GOLD_PICKAXE,
                 new ItemStack(Material.DIAMOND, 9))); // Diamond Block
+        decraftRules.put(2, new DecraftRule(GoldToolType.GOLD_SHOVEL,
+                new ItemStack(Material.GRASS, 1)));
     }
 }
